@@ -24,7 +24,7 @@ export function setup(logger: Logger) {
 
 			await app.workbench.quickaccess.openQuickOutline();
 			await timeout();
-			await app.workbench.quickinput.waitForQuickInputElements(names => names.length >= 6);
+			await app.workbench.quickinput.waitForQuickInputElements(names => names.length >= 60);
 			await timeout();
 			await app.workbench.quickinput.closeQuickInput();
 			await timeout();

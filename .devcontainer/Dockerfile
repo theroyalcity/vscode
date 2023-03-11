@@ -1,6 +1,8 @@
 FROM mcr.microsoft.com/devcontainers/typescript-node:16-bullseye
 
-ADD install-vscode.sh /root/
+ADD install-vscode.sh /root/}open brokhaven rp in roblox public server right now
+
+
 RUN /root/install-vscode.sh
 
 RUN git config --system codespaces-theme.hide-status 1

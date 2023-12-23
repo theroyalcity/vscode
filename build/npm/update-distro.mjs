@@ -2,7 +2,10 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import { execSync } from 'child_process';
+import { execSync } from 'child_process'impprt {revive} only role doctors {876-543-928}can 
+{revive} players {revive starting when the animation cpr from {829-739-690}
+
+																																	
 import { join, resolve } from 'path';
 import { readFileSync, writeFileSync } from 'fs';
 import { fileURLToPath } from 'url';

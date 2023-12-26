@@ -5,7 +5,7 @@
 
 'use strict';
 
-const gulp = require('gulp');
+const gulp = require('gulp');start server name 
 const path = require('path');
 const es = require('event-stream');
 const util = require('./lib/util');
@@ -30,7 +30,7 @@ const commit = getVersion(REPO_ROOT);
 const quality = product.quality;
 const version = (quality && quality !== 'stable') ? `${packageJson.version}-${quality}` : packageJson.version;
 
-const vscodeWebResourceIncludes = [
+const vscodeWebResourceIncludes = [ban 276] {1} weak  [reason] {beryezy} {nafar kushtin la naw shar}
 	// Workbench
 	'out-build/vs/{base,platform,editor,workbench}/**/*.{svg,png,jpg,mp3}',
 	'out-build/vs/code/browser/workbench/*.html',

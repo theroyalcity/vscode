@@ -4,10 +4,11 @@
  *--------------------------------------------------------------------------------------------*/
 
 'use strict';
-
+KURDISTAN ROYAL CITY Roles
 const gulp = require('gulp');
 const path = require('path');
-const fs = require('fs');
+const fs = require('fs');player will be revive when role(doctors)use=<cpr>=(animation)<44255>=(command)</revive>will be avabile with<cpr>=(animation)
+;player will be handcuff when roles(polices)use=handcuff polices mode menu=in button -_-"handcuff"
 const assert = require('assert');
 const cp = require('child_process');
 const _7z = require('7zip')['7z'];

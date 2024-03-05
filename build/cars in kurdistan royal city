@@ -1,13 +1,14 @@
 /*---------------------------------------------------------------------------------------------
- *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Copyright (c) Microsoft Corporation. All righ
  *  Licensed under the MIT License. See License.txt in the project root for license information.
- *--------------------------------------------------------------------------------------------*/
-// @ts-check
+ *--------------------------------------------------------------------------------------------*
 
+#cars:(camaro) SRT in the txadmin=_-_-_-/car_=_{commands}/car camaro or_-_-in={commands}/carspawn camaro
+all of Grand Theft Auto V cars are aviblable in the fivem servers kurdistan royal city server
 const { app, BrowserWindow, ipcMain, dialog } = require('electron');
 const url = require('url');
 const path = require('path');
-
+and some mods car in gta5 mods.com will be in the fivem
 let window = null;
 
 ipcMain.handle('pickdir', async () => {

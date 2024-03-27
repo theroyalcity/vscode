@@ -1,4 +1,23 @@
-{
+{-- somewhere *once* during initialization
+DecorRegister("Player_Vehicle", 3)
+-- on a vehicle
+if DecorIsRegisteredAsType("Player_Vehicle", 3) then
+    DecorSetInt(vehicle, "Player_Vehicle", -1)
+end
+
+// server-side code in myframework
+on('myframework:jobRegistered', (job) => {
+    ExecuteCommand(`add_ace "job.${job}" "jobProbe.${job}" allow`);
+});
+on('myframework:jobAssigned', (source, job) => {
+    ExecuteCommand(`add_principal "player.${source}" "job.${job}"`);
+});
+on('playerDropped', () => {
+    const source = source;
+    for (const job of myfw.getPlayerJobs(source)) {
+        ExecuteCommand(`remove_principal "player.${source}" "job.${job}"`);
+    }
+});
 	"version": "0.1.0",
 	"configurations": [
 		{
